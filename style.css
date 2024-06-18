@@ -1,0 +1,1000 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36.23px;
+}
+
+h3 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25.88px;
+}
+
+h4 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.29px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* font tools */
+
+.fnt-plus-jakarta {
+    font-family: plus;
+}
+
+.para1 {
+font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 25px;
+}
+
+.black-47 {
+    color: #474747;
+}
+
+.black-25c {
+  color: #25313C;
+}
+
+/* align tools */
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.flex-col-rev {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-btw  {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-decor-none {
+    text-decoration: none;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+
+/* Main css */
+
+.container {
+    padding: 0px 20px;
+}
+
+.nav-bar {
+    height: 66px;
+    background-color: #fafafa;
+}
+
+.nav-buttons {
+    display: none;
+}
+
+.nav-text {
+    display: none;
+}
+
+.dream-car-section {
+    height: 735px;
+    background-image: url(./assets/mobile/Hero\ Image.png);
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.dream-car-text {
+    padding-top: 43px;
+}
+
+.secondary-btn {
+    width: 335px;
+    height: 56px;
+    background: #00ADEE;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.primary-btn {
+    width: 335px;
+    height: 56px;
+    gap: 5px;
+    border-radius: 5px;
+    border: 2px solid #00ADEE;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #00ADEE;
+    background-color: #00ADEE36;
+}
+
+/* logos section */
+
+.logos-section {
+    min-width: 375px;
+    height: 304px;
+    background-color: #fafafa;
+}
+
+.logos-section2 {
+    min-width: 375px;
+    height: 304px;
+    background-color: #fafafa;
+    display: none;
+}
+
+.padv-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* perks section */
+
+.perks-section {
+    height: 880px;
+    padding: 58px 0px 69px;
+}
+
+.perks-head {
+    width: 228px;
+    height: 54px;
+    left: 74px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.88px;
+}
+
+.para2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #6D7D8B;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+/* service section */
+
+.service-section {
+    height: 3060px;
+    margin-top: 30px;
+}
+
+.service-head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.service-btn {
+    width: Fixed (147px)px;
+    height: Hug (38px)px;
+    top: 30px;
+    left: 20px;
+    padding: 10px 22px;
+    gap: 10px;
+    border-radius: 60px;
+    background: #F5FCFF;
+    border: 0.5px solid #00ADEE;
+    color: #00ADEE;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.12px;
+}
+
+.service-1 {
+    padding-top: 30px;
+}
+
+.tinting-text, .ceramic-text, .paint-pf-text, .wraps-text {
+    background-color: #fafafa;
+}
+
+.service-inhead {
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 31.06px;
+    text-align: left;
+}
+
+.gap-3 {
+    gap: 3px;
+}
+
+.list-fnt-14 {
+font-family: "Plus Jakarta Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 22.84px;
+text-align: left;
+color: #6D7D8B;
+padding-bottom: 10px;
+}
+
+.padv-30-24 {
+    padding: 30px 0px 24px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.serv-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.serv-list2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.serv-list3 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.tinting-img {
+    background-image: url(./assets/mobile/Tesla-car.png);
+    background-repeat: no-repeat;
+    height: 337px;   
+}
+
+.ceramic-coat-img {
+    background-image: url(./assets/mobile/dodge-ram-pickup.png);
+    background-repeat: no-repeat;
+    height: 337px;  
+}
+
+.paint-pf-img {
+    background-image: url(./assets/mobile/paint\ Protection\ Film\ img.png);
+    background-repeat: no-repeat;
+    height: 337px;
+}
+
+.wraps-img {
+    background-image: url(./assets/mobile/chevrolet-pickup.png);
+    background-repeat: no-repeat;
+    height: 337px;
+}
+
+/* about us section */
+
+.about-us-head {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us-btn {
+    width: Fixed (272px)px;
+    height: Hug (38px)px;
+    top: 30px;
+    left: 20px;
+    padding: 10px 22px;
+    gap: 10px;
+    border-radius: 60px;
+    background: #F5FCFF;
+    border: 0.5px solid #00ADEE;
+    color: #00ADEE;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.12px;
+}
+
+ul {
+    padding-left: 40px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6D7D8B;
+}
+
+.list-links {
+    text-decoration: underline;
+    color: #00ADEE;
+}
+
+.list-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us-img {
+    background-image: url(./assets/mobile/man\ fixing\ car.png);
+    background-repeat: no-repeat;
+    height: 337px;
+}
+
+/* FAQs section */
+
+.faqs-wrapper {
+width: Hug (335px)px;
+height: Hug (623px)px;
+gap: 16px;
+}
+
+.faqs-component1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faqs-q-box {
+    background-color: #F5FCFF;
+}
+
+.faqs-quetion {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #00ADEE;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.para3 {
+    padding-left: 20px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6D7D8B;
+}
+.faqs-linebreaker {
+    border: 1px solid #EEEEEE
+}
+
+.faqs-quetion2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: left;
+    color: #474747;
+}
+
+.faqs-component2 {
+    display: none;
+}
+
+/* quote section */
+
+.quote-section {
+    background-color: #FAFAFA;
+}
+
+.quote-form {
+    height: 931px;
+}
+
+.quote-form-wrapper {
+    padding: 26px 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 0px #C0C0C040;
+}
+
+.quote-wrap1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.quote-wrap2 {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-16 {
+    gap: 20px;
+}
+
+.gap-20 {
+    gap: 16px;
+}
+
+.form-fnt1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    color: #474747;
+}
+
+#input-box {
+    width: 295px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #DADADA
+}
+
+.para4 {
+font-family: "Plus Jakarta Sans";
+font-size: 14px;
+font-weight: 300;
+line-height: 18.12px;
+text-align: left;
+color: #6D7D8B;
+}
+
+.quote-radio {
+    padding-top: 20px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.8px;
+    text-align: left;
+    color: #6D7D8B;
+}
+
+.quote-btn {
+    width: 295px;
+    height: 56px;
+    background: #00ADEE;
+    border-radius: 4px;
+    border: 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* testimonial section */
+
+.testimonial-cards {
+    overflow: hidden;
+    padding: 10px 0px 10px 20px
+    
+}
+
+.testimonial-img {
+    width: 303px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.test-nav-btn {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.test-nav-btn2 {
+    display: none;
+}
+
+/* footer */ 
+
+.footer {
+    background-color: #F5FCFF;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.footer-head {
+   padding-top: 30px;
+}
+
+.para5 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #6D7D8B;
+}
+
+.padv-30 {
+    padding: 30px 0px 30px;
+}
+
+.gap-28 {
+    gap: 28px;
+}
+
+@media screen and (min-width: 378px) {
+
+    .dream-car-section {
+        height: 735px;
+        width: 100%;
+        background-image: url(./assets/desktop/Hero\ Image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        color: #ffffff;
+    }
+
+    .logo-box1, .logo-box2, .logo-box3 {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+ 
+    h1 {
+        font-family: "Plus Jakarta Sans";
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 74px;
+        text-align: left;
+    }
+
+    h2 {
+        font-family: "Plus Jakarta Sans";
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 60px;
+        text-align: left;
+    }
+
+    .para1 {
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .lg\:items-center {
+        align-items: center;
+    }
+
+    .lg\:justify-center {
+        justify-content: center;
+    }
+
+    .lg\:flex {
+        display: flex;
+    }
+
+    .lg\:row {
+        flex-direction: row;
+    }
+
+    .lg\:row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .lg\:gap-20 {
+        gap: 20px;
+    }
+ 
+    .lg\:mt0 {
+        margin-top: 0px;
+    }
+
+    .dream-car-section {
+        height: 950px;
+        background-image: url(./assets/desktop/Hero\ Image.png);
+        background-repeat: no-repeat;
+        color: #ffffff;
+    }
+
+    .dream-car-text {
+        width: 539.07px;
+        height: 359px;
+        position: relative;
+        top: 160px;
+        left: 89.93px;
+    }
+
+    .secondary-btn {
+        width: 164.89px;
+        height: 56px;
+    }
+
+    .primary-btn {
+        width: 164.89px;
+        height: 56px;
+    }
+    .secondary-btn3 {
+        width: 121px;
+        height: 46px;
+        background: #00ADEE;
+        border-radius: 4px;
+        border: 0px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        
+    }
+    
+    .primary-btn3 {
+        width: 121px;
+        height: 46px;
+        gap: 5px;
+        border-radius: 5px;
+        border: 2px solid #00ADEE;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: #00ADEE;
+        background-color: #00ADEE36;
+    }
+
+    .hambarguer {
+        display: none;
+    }
+
+    .list-fnt-14b {
+        font-family: "Plus Jakarta Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.6px;
+        text-align: left;
+        color: #6D7D8B;
+        padding-bottom: 10px;
+    }
+
+    .nav-text {
+        display: flex;
+        gap: 15px;
+    }
+
+    .nav-buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* logo section */
+
+    .logos-section2 {
+        height: 114px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+    }
+
+    .logos-section {
+        display: none;
+    }
+
+    .logo-box1, .logo-box2, .logo-box3 { 
+        
+        align-items: center;
+    }
+
+    .logo-box3 {
+        flex-direction: row-reverse;
+    }
+
+
+    .amg-logo {
+        width: 115.93px;
+        height:18.12px;
+    }
+
+    .bmw-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .dodge-logo {
+        width: 178px;
+        height: 23px;
+    }
+
+    .ford-logo {
+        width: 75px;
+        height: 28px;
+    }
+
+    .audi-logo {
+        width: 75px;
+        height: 26.19px;
+    }
+
+    .tesla-logo {
+        width: 29.14px;
+        height: 37px;
+    }
+
+    /* perks section */
+
+    .perks-section {
+        height: 412px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 100px;
+    }
+
+    .perk-1, .perk-3 {
+        width: 296px;
+        height: 221px;
+    }
+
+    .perk-2 {
+        width: 359px;
+        height: 251px;
+    }
+
+    /* service-section */
+
+    .service-section {
+        margin-top: 20px;
+        height: 2233px;
+    }
+    .service-1 {
+        display: flex;
+        height: 514px;
+        padding: 0px;
+    }
+
+    .tinting-text, .ceramic-text, .paint-pf-text, .wraps-text {
+        background-color: #fafafa;
+        width: 50%;
+        height: 514px;
+        padding: 80px;
+    }
+
+    .tinting-img {
+        background-image: url(./assets/desktop/tesla\ car.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100% 100%; 
+        width: 50%;
+        height: 100%;
+    }
+    
+    .ceramic-coat-img {
+        background-image: url(./assets/desktop/ram-pickup.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100% 100%; 
+        width: 50%;
+        height: 100%;
+    }
+    
+    .paint-pf-img {
+        background-image: url(./assets/desktop/paint-protection-film.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100% 100%; 
+        width: 50%;
+        height: 100%;
+    }
+    
+    .wraps-img {
+        background-image: url(./assets/desktop/chevrolet-pickup.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100% 100%; 
+        width: 50%;
+        height: 100%;
+    }
+
+    /* about us section */
+
+    .about-us-section {
+        width: 100%;
+    }    
+    
+    
+    .about-us-wrapper {
+        padding-top: 60px;
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .about-us-head {
+        width: 40%;
+        padding-top: 0px;
+    }
+
+    .wit-60p {
+        width: 60%;
+    }
+
+    .about-us-img {
+        background-image: url(./assets/desktop/man\ fixing\ car.png);
+        background-repeat: no-repeat;
+        height: 601px;
+    }
+
+    /* faqs section */
+
+    .faqs-section {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .faqs-head {
+        width: 499px;
+    }
+
+    .faqs-component1 {
+        display: none;
+    }
+
+    .faqs-component2 {
+        display: contents;
+        width: 640px;
+        padding-top: 10px;
+    }
+
+
+    /* quote section */
+
+    .quote-section {
+        display: flex;
+        padding: 60px 100px 60px 20px;
+    }
+
+    .quote-head {
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .wit-469 {
+        width: 469px;
+    }
+
+    .wit-367 {
+        width: 367px;
+    }
+
+    .quote-form {
+        height: 673px;
+        padding: 0px;
+    }
+
+    .quote-form-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #input-box {
+        width: 230px;
+    }
+
+    .quote-btn {
+        width: 530px;
+    }
+
+    .quote-wrap1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        
+
+    /* Testimonial Section*/
+    
+    .test-nav-btn2 {
+        display: flex;
+    }
+
+    .test-nav-btn {
+        display: none;
+    }
+
+    .test-head {
+        width: 635px;
+    }
+
+    .testimonial-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    /* footer section */
+
+    .footer {
+        display: flex;
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: space-between;
+    }
+
+    .footer-head {
+        width: 222px;
+    }
+}
